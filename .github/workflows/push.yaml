@@ -1,0 +1,9 @@
+name: store-cars-github-workflow
+run-name: ${{ github.actor }}
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: ./gradlew clean build
