@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: ./gradlew clean build
+      - run: chmod +x ./gradlew && ./gradlew clean build
