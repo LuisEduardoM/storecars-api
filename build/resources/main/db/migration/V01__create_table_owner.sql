@@ -1,6 +1,0 @@
-CREATE TABLE owner(
-    id BIGINT PRIMARY KEY,
-    name VARCHAR(200) NOT NULL,
-    email VARCHAR(300) NOT NULL,
-    phone VARCHAR(20) NOT NULL
-);
